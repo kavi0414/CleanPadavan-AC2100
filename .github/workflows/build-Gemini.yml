@@ -57,7 +57,7 @@ jobs:
           echo "BUILD_VER=4.4" >> $GITHUB_ENV
         fi
         
-        TARGET_DEVICE="NEWIFI3"
+        TARGET_DEVICE="MI-MINI"
         
         # =======================================================
         # 2. 拉取源码
