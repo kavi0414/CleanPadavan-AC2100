@@ -46,7 +46,7 @@ jobs:
         
         # 逻辑判断：设置 URL 并提取干净的版本号
         if [[ "${{ inputs.target_version }}" == *"3.4"* ]]; then
-          REPO_URL="https://github.com/hanwckf/rt-n56u.git"
+          REPO_URL="https://github.com/vb1980/Padavan-KVR.git"
           REPO_BRANCH="master"
           echo "Selected Version: 3.4 (hanwckf)"
           echo "BUILD_VER=3.4" >> $GITHUB_ENV
