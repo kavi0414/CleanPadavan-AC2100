@@ -143,10 +143,10 @@ jobs:
       if: success()
       with:
         tag_name: v${{ env.DATE }}-${{ env.BUILD_VER }}
-        name: Redmi AC2100 Padavan ${{ env.BUILD_VER }} (${{ env.DATE }})
+        name: MI-MINI Padavan ${{ env.BUILD_VER }} (${{ env.DATE }})
         body: |
           自动构建固件
-          - 机型: Redmi AC2100
+          - 机型: MI-MINI
           - 版本: Padavan ${{ env.BUILD_VER }}
           - 编译日期: ${{ env.DATE }}
           - 插件: 纯净版
